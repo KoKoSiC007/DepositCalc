@@ -1,15 +1,8 @@
-//
-//  main.cpp
-//  DepositCalc
-//
-//  Created by Grisha Okin on 31/03/2019.
-//  Copyright © 2019 Grisha Okin. All rights reserved.
-//
+#include  <iostream>
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-	// insert code here...
-	std::cout << "Hello, World!\n";
+int main(int argc, char *argv[])
+{
+	std::cout << "Hello, World!!!" << std:endl;
+	
 	return 0;
 }
