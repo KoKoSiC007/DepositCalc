@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>listcontributions</class>
+ <widget class="QDialog" name="listcontributions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1025</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="mainGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>10</y>
+     <width>741</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Вклад 1</string>
+   </property>
+   <widget class="QWidget" name="layoutWidget_26">
+    <property name="geometry">
+     <rect>
+      <x>13</x>
+      <y>29</y>
+      <width>711</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_7">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_52">
+       <item>
+        <widget class="QLabel" name="label_34">
+         <property name="text">
+          <string>Валюта вклада</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QComboBox" name="valueComboBox">
+         <item>
+          <property name="text">
+           <string>Рубль</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Евро</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Доллар</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_53">
+       <item>
+        <widget class="QLabel" name="label_35">
+         <property name="text">
+          <string>Дата открытия вклада</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_21">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="beginDateEdit"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_54">
+       <item>
+        <widget class="QLabel" name="label_36">
+         <property name="text">
+          <string>Дата закрытия вклада</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_22">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QDateEdit" name="dateEdit_14"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_55">
+       <item>
+        <widget class="QLabel" name="label_37">
+         <property name="text">
+          <string>Срок вклада в днях</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_23">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="daysLineEdit">
+         <property name="inputMask">
+          <string/>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_56">
+       <item>
+        <widget class="QLabel" name="label_38">
+         <property name="text">
+          <string>Сумма вклада        </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_24">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="sumLineEdit">
+         <property name="inputMask">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_22">
+       <property name="title">
+        <string>Капитализация процентов</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget_27">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>261</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_57">
+         <item>
+          <widget class="QRadioButton" name="radioButton_37">
+           <property name="text">
+            <string>Да</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_38">
+           <property name="text">
+            <string>Нет</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_23">
+       <property name="title">
+        <string>Досрочное закрытия вклада</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget_28">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>30</y>
+          <width>261</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_58">
+         <item>
+          <widget class="QRadioButton" name="radioButton_39">
+           <property name="text">
+            <string>Да</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_40">
+           <property name="text">
+            <string>Нет</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGroupBox" name="groupBox_24">
+       <property name="title">
+        <string>Вкладчик - пенсионер</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget_29">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>20</y>
+          <width>263</width>
+          <height>24</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_59">
+         <item>
+          <widget class="QRadioButton" name="radioButton_41">
+           <property name="text">
+            <string>Да</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButton_42">
+           <property name="text">
+            <string>Нет</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>410</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>258</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QListWidget" name="listWidget">
+      <item>
+       <property name="text">
+        <string>Вклад 1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Вклад 2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Вклад 3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Вклад 4</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Вклад 5</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Вклад 6</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
